@@ -6,3 +6,4 @@ source activate ./env
 echo [$(date)]: "installing the dev requirements" 
 pip install -r requirements_dev.txt
 echo [$(date)]: "END" 
+# init_setup file helps us to install all the requirements in one go
